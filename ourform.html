@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://winespto.org/ScienceOlympiad/scienceRegistration.html -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body style=""><header>
+<title> Wines Science Olympiad Registration </title>
+ <link type="text/css" rel="stylesheet" href="./Wines Science Olympiad Registration_files/form.css">
+<script>
+function check(input) {
+  if (input.value != document.getElementById('email_addr').value) {
+    input.setCustomValidity('The two email addresses must match.');
+  } else {
+    // input is valid -- reset the error message
+    input.setCustomValidity('');
+  }
+}
+function checkShirt(input) {
+  if (input.value != document.getElementById('email_addr').value) {
+    input.setCustomValidity('The two email addresses must match.');
+  } else {
+    // input is valid -- reset the error message
+    input.setCustomValidity('');
+  }
+}
+</script>
+</header>
+
+<div id="content">
+<form method="post" enctype="application/x-www-form-urlencoded" action="http://winespto.org/ScienceOlympiad/ParticipantSave.php">
+      <h1> SCIENCE OLYMPIAD: Registration Form </h1>
+<ol>
+<li> <p>Please return registration fee to student's teacher.  ($15 if your child needs a shirt or $10 if they already have one) <br>
+Make checks payable to <em> Wines PTO </em>.  (Scholarships available in the office.)</p></li>
+
+<li> <p>All students need a Wines orange Olympiad t-shirt to compete.<br>
+   <input type="radio" id="need_shirt" name="need_shirt" required="" value="Yes">  I need a t-shirt ($15) <br>
+  Youth Small <input type="radio" name="shirt_size" value="YS">
+                        Youth Medium<input type="radio" name="shirt_size" value="YM">
+                        Youth Large<input type="radio" name="shirt_size" value="YL">
+                        Youth X-Large<input type="radio" name="shirt_size" value="YXL">
+                        Adult Small<input type="radio" name="shirt_size" value="AS">
+                        Adult Medium <input type="radio" name="shirt_size" value="AM"><br>
+
+    <input type="radio" id="need_shirt" name="need_shirt" value="No"><label>I already have a Wines orange t-shirt ($10)<br>
+</label></p></li>
+<h2>Student Information</h2>
+<p>
+Full name:
+  <input type="text" id="child_name" name="child_name" placeholder="Student name" required=""><br>
+  
+Grade:  <select name="grade" required="">
+      <option id="grade" value=""> </option>
+      <option id="grade" value="2">2nd </option>
+      <option id="grade" value="3">3rd </option>
+      <option id="grade" value="4">4th </option>
+      <option id="grade" value="5">5th </option>
+  </select>&nbsp;&nbsp;
+ Teacher:
+  <select name="Teacher" required="">
+<option value=""> </option>
+
+<option value="Cheryl Day"> Cheryl Day </option>
+<option value="Marcia Gibbs"> Marcia Gibbs </option>
+<option value="Angela Black">Angela Black  </option>
+<option value="Paula Caruso">Paula Caruso  </option>
+<option value="Jessica Rodriguez">Jessica Rodriguez</option>
+<option value="Millie Fisher">Millie Fisher  </option>
+<option value="Nick Mosher">Nick Mosher  </option>
+<option value="Janet Heaton"> Janet Heaton </option>
+<option value="Neil Duggins">Neil Duggins  </option>
+<option value="Karen Sanderson">Karen Sanderson</option>
+<option value="Julie Spiroff"> Julie Spiroff </option>
+</select><br><br>
+
+</p><h3>What event did your child participate in last year:</h3>
+<select name="lastYear" required="">
+  <option value="--"> None</option>
+  <option value="Bones"> No Bones About It </option>
+  <option value="Barge"> Barge Building </option>
+  <option value="Circuit">Circuit Wizardry  </option>
+  <option value="Estimania">Estimania  </option>
+  <option value="Bloom">In Bloom  </option>
+  <option value="Maps">Map Reading  </option>
+  <option value="Architecture">Mystery Architecture  </option>
+  <option value="Pentathlon">Pentathlon  </option>
+  <option value="Chemistry">C is for Chemistry  </option>
+  <option value="Puff">Puff Mobile  </option>
+  <option value="Rocks">Rock Hunter  </option>
+  <option value="SJ5">Science Jeopardy - 5th grade  </option>
+  <option value="SJ4">Science Jeopardy - 4th grade  </option>
+  <option value="Sink">Sink and Float  </option>
+  <option value="Straw">Straw Tower </option>
+  <option value="Rockets">Water Rockets  </option>
+  <option value="WriteBuild">Write It Build It  </option>
+  <option value="WhatWentBy">What Went By?  </option>
+  <option value="On Targt">On Target  </option>
+  <option value="Infinity">To Infinity and Beyond </option>
+  <option value="Feathers">Feathered Friends </option>
+  </select> 
+
+<p></p>  
+<h2>Event Choices</h2>
+<p>
+  <label>First Choice:
+  <select name="choice1">
+  <option value="AeroDynamics"> AeroDynamics (2nd and 3rd grades) </option>
+  <option value="Barge"> Barge Building (2nd grade) </option>
+  <option value="Circuit">Circuit Wizardry  (4th and 5th grades) </option>
+  <option value="Disease">Disease Detective  (all grades) </option>
+  <option value="Estimania">Estimania  (all grades) </option>
+  <option value="Feathered Friends">Feathered Friends  (all grades) </option>
+
+  <option value="Bloom">In Bloom  (2nd and 3rd grades)</option>
+  <option value="Infinity">To Infinity and Beyond (all grades)  </option>
+  <option value="Maps">Map Reading  (all grades) </option>
+  <option value="Architecture">Mystery Architecture (all grades) </option>
+  <option value="On Target">On Target (all grades)  </option>
+  <option value="Pasta Bridges">Pasta Bridges  (2nd grade) </option>
+  <option value="Pentathlon">Pentathlon  (all grades) </option>
+  <option value="Chemistry">Chemistry/Potions (4th and 5th grades)</option>
+  <option value="Puff Mobiles">Puff Mobiles (2nd and 3rd grades)  </option>
+  <option value="Reflections">Reflections (4th and 5th grades) </option>
+  <option value="SJ5">Science Jeopardy (3rd, 4th, and 5th grades) </option>
+  <option value="Straw Tower">Straw Tower (3rd, 4th, and 5th grades) </option>
+  <option value="Rockets">Water Rockets  (3rd, 4th, and 5th grades) </option>
+  <option value="WhatWentBy">What Went By?  (3rd, 4th, and 5th grades) </option>
+  <option value="Write It Build It">Write It, Build It (3rd, 4th, and 5th grades)   </option>
+  <option value="Picture This">Pilot Event: Picture This  (4th and 5th grades)</option>
+  </select> </label>
+  </p><p>
+  <label>Second Choice:
+  <select name="choice2">
+  <option value="AeroDynamics"> AeroDynamics (2nd and 3rd grades) </option>
+  <option value="Barge"> Barge Building (2nd grade) </option>
+  <option value="Circuit">Circuit Wizardry  (4th and 5th grades) </option>
+  <option value="Disease">Disease Detective  (all grades) </option>
+  <option value="Estimania">Estimania  (all grades) </option>
+  <option value="Feathered Friends">Feathered Friends  (all grades) </option>
+
+  <option value="Bloom">In Bloom  (2nd and 3rd grades)</option>
+  <option value="Infinity">To Infinity and Beyond (all grades)  </option>
+  <option value="Maps">Map Reading  (all grades) </option>
+  <option value="Architecture">Mystery Architecture (all grades) </option>
+  <option value="On Target">On Target (all grades)  </option>
+  <option value="Pasta Bridges">Pasta Bridges  (2nd grade) </option>
+  <option value="Pentathlon">Pentathlon  (all grades) </option>
+  <option value="Chemistry">Chemistry/Potions (4th and 5th grades)</option>
+  <option value="Puff Mobiles">Puff Mobiles (2nd and 3rd grades)  </option>
+  <option value="Reflections">Reflections (4th and 5th grades) </option>
+  <option value="SJ5">Science Jeopardy (3rd, 4th, and 5th grades) </option>
+  <option value="Straw Tower">Straw Tower (3rd, 4th, and 5th grades) </option>
+  <option value="Rockets">Water Rockets  (3rd, 4th, and 5th grades) </option>
+  <option value="WhatWentBy">What Went By?  (3rd, 4th, and 5th grades) </option>
+  <option value="Write It Build It">Write It, Build It (3rd, 4th, and 5th grades)   </option>
+  <option value="Picture This">Pilot Event: Picture This  (4th and 5th grades)</option>
+  </select> </label>
+  </p>
+<p>
+  <label>Third Choice:
+  <select name="choice3">
+  <option value="AeroDynamics"> AeroDynamics (2nd and 3rd grades) </option>
+  <option value="Barge"> Barge Building (2nd grade) </option>
+  <option value="Circuit">Circuit Wizardry  (4th and 5th grades) </option>
+  <option value="Disease">Disease Detective  (all grades) </option>
+  <option value="Estimania">Estimania  (all grades) </option>
+  <option value="Feathered Friends">Feathered Friends  (all grades) </option>
+
+  <option value="Bloom">In Bloom  (2nd and 3rd grades)</option>
+  <option value="Infinity">To Infinity and Beyond (all grades)  </option>
+  <option value="Maps">Map Reading  (all grades) </option>
+  <option value="Architecture">Mystery Architecture (all grades) </option>
+  <option value="On Target">On Target (all grades)  </option>
+  <option value="Pasta Bridges">Pasta Bridges  (2nd grade) </option>
+  <option value="Pentathlon">Pentathlon  (all grades) </option>
+  <option value="Chemistry">Chemistry/Potions (4th and 5th grades)</option>
+  <option value="Puff Mobiles">Puff Mobiles (2nd and 3rd grades)  </option>
+  <option value="Reflections">Reflections (4th and 5th grades) </option>
+  <option value="SJ5">Science Jeopardy (3rd, 4th, and 5th grades) </option>
+  <option value="Straw Tower">Straw Tower (3rd, 4th, and 5th grades) </option>
+  <option value="Rockets">Water Rockets  (3rd, 4th, and 5th grades) </option>
+  <option value="WhatWentBy">What Went By?  (3rd, 4th, and 5th grades) </option>
+  <option value="Write It Build It">Write It, Build It (3rd, 4th, and 5th grades)   </option>
+  <option value="Picture This">Pilot Event: Picture This  (4th and 5th grades)</option>
+  </select> </label>
+  </p>
+<p>
+  <label>Fourth Choice:
+  <select name="choice4">
+  <option value="AeroDynamics"> AeroDynamics (2nd and 3rd grades) </option>
+  <option value="Barge"> Barge Building (2nd grade) </option>
+  <option value="Circuit">Circuit Wizardry  (4th and 5th grades) </option>
+  <option value="Disease">Disease Detective  (all grades) </option>
+  <option value="Estimania">Estimania  (all grades) </option>
+  <option value="Feathered Friends">Feathered Friends  (all grades) </option>
+
+  <option value="Bloom">In Bloom  (2nd and 3rd grades)</option>
+  <option value="Infinity">To Infinity and Beyond (all grades)  </option>
+  <option value="Maps">Map Reading  (all grades) </option>
+  <option value="Architecture">Mystery Architecture (all grades) </option>
+  <option value="On Target">On Target (all grades)  </option>
+  <option value="Pasta Bridges">Pasta Bridges  (2nd grade) </option>
+  <option value="Pentathlon">Pentathlon  (all grades) </option>
+  <option value="Chemistry">Chemistry/Potions (4th and 5th grades)</option>
+  <option value="Puff Mobiles">Puff Mobiles (2nd and 3rd grades)  </option>
+  <option value="Reflections">Reflections (4th and 5th grades) </option>
+  <option value="SJ5">Science Jeopardy (3rd, 4th, and 5th grades) </option>
+  <option value="Straw Tower">Straw Tower (3rd, 4th, and 5th grades) </option>
+  <option value="Rockets">Water Rockets  (3rd, 4th, and 5th grades) </option>
+  <option value="WhatWentBy">What Went By?  (3rd, 4th, and 5th grades) </option>
+  <option value="Write It Build It">Write It, Build It (3rd, 4th, and 5th grades)   </option>
+  <option value="Picture This">Pilot Event: Picture This  (4th and 5th grades)</option>
+  </select> </label>
+  </p>
+
+  <p>
+  </p><h3>Students, please check one of the following:</h3>
+ <input type="radio" id="num_events" name="num_events" value="1 event" required="" checked=""><label>Please assign me just one event</label> <br>
+ <input type="radio" id="num_events" name="num_events" value="2 events"><label>Please assign me two events. I confirmed that the competing times do not conflict.</label> 
+<p></p><p>
+</p><h3>Please read carefully as this affects the team placement. “On the day of the Olympiad…</h3>
+ <input type="radio" id="placement" name="placement" value="team" required=""> <label>I only wish to compete in an event as part of a team, NOT BY MYSELF.”</label><br>
+ <input type="radio" id="placement" name="placement" value="individual">
+ <label>I will compete individually on the day of the event if there is no other interest in one of my favorite events. I realize all activities leading up to the Olympiad will be in groups.”</label> 
+<p></p><p>
+
+</p><h3> Parental Information and Support </h3>
+<label> Name of parent(s): </label>
+  <input type="text" id="parent_name" name="parent_name" placeholder="Parent name(s)" required=""><br>
+  <label>Phone: </label>
+  <input type="tel" id="cell" placeholder="(734)555-0000" name="cell" required="">
+  <br>
+  <label>Email: </label>
+    <input type="email" name="usremail" required="">
+     <label>Verify Email: </label>
+    <input type="email" name="usremail2" required="">
+*ALL communications will be via e-mail.  Please let us know if you require paper copies.
+<br>
+<p>
+Wines is required to provide 1 volunteer per 4 students, so we need everyone’s help! 
+Please check one of the following considering if your child competes in the AM or PM:<br>
+    <input type="checkbox" name="coach"> <label>I can assistant coach / coach the following team: </label><select name="willcoach">
+
+  <option value="None"></option>
+
+  <option value="AeroDynamics"> AeroDynamics (2nd and 3rd grades) </option>
+  <option value="Barge"> Barge Building (2nd grade) </option>
+  <option value="Circuit">Circuit Wizardry  (4th and 5th grades) </option>
+  <option value="Disease">Disease Detective  (all grades) </option>
+  <option value="Estimania">Estimania  (all grades) </option>
+  <option value="Feathered Friends">Feathered Friends  (all grades) </option>
+
+  <option value="Bloom">In Bloom  (2nd and 3rd grades)</option>
+  <option value="Infinity">To Infinity and Beyond (all grades)  </option>
+  <option value="Maps">Map Reading  (all grades) </option>
+  <option value="Architecture">Mystery Architecture (all grades) </option>
+  <option value="On Target">On Target (all grades)  </option>
+  <option value="Pasta Bridges">Pasta Bridges  (2nd grade) </option>
+  <option value="Pentathlon">Pentathlon  (all grades) </option>
+  <option value="Chemistry">Chemistry/Potions (4th and 5th grades)</option>
+  <option value="Puff Mobiles">Puff Mobiles (2nd and 3rd grades)  </option>
+  <option value="Reflections">Reflections (4th and 5th grades) </option>
+  <option value="SJ5">Science Jeopardy (3rd, 4th, and 5th grades) </option>
+  <option value="Straw Tower">Straw Tower (3rd, 4th, and 5th grades) </option>
+  <option value="Rockets">Water Rockets  (3rd, 4th, and 5th grades) </option>
+  <option value="WhatWentBy">What Went By?  (3rd, 4th, and 5th grades) </option>
+  <option value="Write It Build It">Write It, Build It (3rd, 4th, and 5th grades)   </option>
+  <option value="Picture This">Pilot Event: Picture This  (4th and 5th grades)</option>
+  
+  </select><br>
+
+<input type="checkbox" name="setup"> <label>I can help set up for the Olympiad </label><br>
+<input type="checkbox" name="clean"> <label>I can help with clean up  </label><br>
+<input type="checkbox" name="judgeAM"> <label>I can judge an event during the morning (4 hrs)</label><br>
+<input type="checkbox" name="judgePM"> <label>I can judge an event during the afternoon (4 hrs)</label><br>
+<input type="checkbox" name="eventAssistAM"> <label>I can help assist with an event during the morning(2 hrs)</label><br>
+<input type="checkbox" name="eventAssistPM"> <label>I can help assist with an event during the morning(2 hrs)</label><br>
+<input type="checkbox" name="FunAct"> <label>I can help with Fun Night activities</label><br>
+<input type="checkbox" name="FunPrep"> <label>I can help with preparations at home</label><br>
+<input type="checkbox" name="WinesTableAM"> <label>I can supervise the Wines table or sell tickets or food during the morning(2 hours)</label><br>
+<input type="checkbox" name="WinesTablePM"> <label>I can supervise the Wines table or sell tickets or food during the afternoon(2 hours)</label><br>
+
+</p><h2> Permissions </h2>
+<h3>Please check one of the following:</h3>
+ <input type="radio" id="pics" name="pics" value="yes" required=""><label>I permit my child to be photographed for the Science Olympiad program and by authorized persons on the day of the Olympiad.</label> <br>
+ <input type="radio" id="pics" name="pics" value="no"><label>I <em> DO NOT </em> permit my child to be photographed for the Science Olympiad program and by authorized persons on the day of the Olympiad.</label> <br>
+<p></p><p><label>Additional comments: 
+  <textarea name="comments" placeholder="Add any conflicting activities that we should consider when placing your child, e.g. piano lessons, team practices, etc."></textarea></label></p>
+  <br><br>
+   
+  <input type="submit" value="Register!!"> 
+
+</ol></form></div>
+
+<script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); form.lpsubmitorig2(); } } }}catch(e){}</script></body></html>
